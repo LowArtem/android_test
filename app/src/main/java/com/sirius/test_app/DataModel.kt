@@ -41,6 +41,13 @@ class ReviewModel(
     val message: String
 )
 
+class ReviewModelRecycler(
+    val userImage: Int,
+    val userName: String,
+    val date: String,
+    val message: String
+)
+
 class VideoModel(
     val id: String,
     val image: String
